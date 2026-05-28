@@ -19,6 +19,7 @@ public class Computer {
     }
 
     public void setCompany(String company) {
+        if(company != null)
         this.company = company;
     }
 
@@ -27,6 +28,7 @@ public class Computer {
     }
 
     public void setRam(int ram) {
+        if(ram > 0)
         this.ram = ram;
     }
 
@@ -35,6 +37,7 @@ public class Computer {
     }
 
     public void setCpu(String cpu) {
+        if(cpu != null)
         this.cpu = cpu;
     }
 
@@ -43,6 +46,7 @@ public class Computer {
     }
 
     public void setSdd(int sdd) {
+        if(sdd > 0)
         this.sdd = sdd;
     }
 
